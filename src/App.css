@@ -53,3 +53,31 @@ form {
   border: 2px solid gray;
   border-radius: 5px;
 }
+
+.bio {
+  font-size: 18px;
+  font-weight: 'bold';
+}
+
+.wd-25 {
+  width: 25% !important;
+}
+
+.wd-50 {
+  width: 50% !important;
+}
+
+.status {
+  display: flex;
+  justify-content: center;
+}
+
+@media all and (max-width: 500px) {
+  .wd-25 {
+    width: 100% !important;
+  }
+
+  .wd-50 {
+    width: 100% !important;
+  }
+}

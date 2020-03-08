@@ -111,7 +111,7 @@ class App extends Component {
     pdf.text('All rights reserved @2020 C U Maniyar', 10, 250)
     pdf.text('Mail to download without water mark', 10, 260)
     pdf.setTextColor(0, 0, 255)
-    pdf.textWithLink('cumaniar18633@gmail.com', 103, 260);
+    pdf.text('cumaniar18633@gmail.com', 103, 260);
     pdf.save(`${this.state.fname ? this.state.fname : 'BioData'}.pdf`);
   }
 

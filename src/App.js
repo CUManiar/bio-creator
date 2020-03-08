@@ -106,12 +106,12 @@ class App extends Component {
       }
     });
 
-    doc.setFontSize(16)
-    doc.setTextColor(200, 0, 0)
-    doc.text('All rights reserved @2020 C U Maniyar', 10, 250)
-    doc.text('Mail to download without water mark', 10, 260)
-    doc.setTextColor(0, 0, 255)
-    doc.textWithLink('cumaniar18633@gmail.com', 103, 260);
+    pdf.setFontSize(16)
+    pdf.setTextColor(200, 0, 0)
+    pdf.text('All rights reserved @2020 C U Maniyar', 10, 250)
+    pdf.text('Mail to download without water mark', 10, 260)
+    pdf.setTextColor(0, 0, 255)
+    pdf.textWithLink('cumaniar18633@gmail.com', 103, 260);
     pdf.save(`${this.state.fname ? this.state.fname : 'BioData'}.pdf`);
   }
 

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bio-creator/precache-manifest.94d54219056c915ee9f1249f0da2edd3.js"
+  "/bio-creator/precache-manifest.8d21b976d24a9c86acb49c9f66ebaa5c.js"
 );
 
 self.addEventListener('message', (event) => {
